@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Cube | Explore impress.js in 3D | by Henrik Ingo @henrikingo</title>
+    <meta name="description" content="Explore impress.js in 3D" />
+    <meta name="author" content="Henrik Ingo" />
+    <link href="css/cube.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="2000">
+
+    <div class="step" data-x="0" data-y="0" data-z="10" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-2 overview overview">
+        <blockquote><h2>&nbsp;</h2></blockquote>
+        <blockquote><h2>What</h2></blockquote>
+        <blockquote><h2>Who</h2></blockquote>
+        <blockquote><h2>When</h2></blockquote>
+        <blockquote><h2>How Much</h2></blockquote>
+    </div>
+
+    <div class="step" data-x="1" data-y="0" data-z="0" data-rotate-y="90" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-3 step-1 overview">
+        <h2>What</h2>
+        <p><i>A 3-tier MarketPlace for Sellers, Collectors and Buyers</i></p>
+        <blockquote>The most <b>flexible</b> marketplace for Sellers</blockquote>
+        <blockquote>The most <b>profitable</b> marketplace for Collectors</blockquote>
+        <blockquote>The most <b>reliable</b> marketplace for Buyers</blockquote>
+    </div>
+
+    <div class="step" data-x="0" data-y="0" data-z="-10"  data-rotate-y="180" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-4 step-2 overview">
+        <h2>What</h2>
+        <p><i>Components</i></p>
+        <blockquote>4 Portals (Admin, Sellers, Collectors, Buyers)</blockquote>
+        <blockquote>1 App (Store)</blockquote>
+        <blockquote>Distributed cloud infrastructure</blockquote>
+     
+    </div>
+
+    <div class="step" data-x="-1" data-y="0" data-z="0"  data-rotate-y="270" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-5 step-3 overview">
+        <h2>Who</h2>
+        <p><i>A remotely managed, high level technical team</i></p>
+        <blockquote>3 Developers</blockquote>
+        <blockquote>1 Graphical Designer</blockquote>
+        <blockquote>1 Project Manager</blockquote>
+        <blockquote>1 Cloud Architect (by demand)</blockquote>  
+    </div>
+
+
+      <div class="step" data-x="0" data-y="4300" data-z="10" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-6 step-4 overview">
+        <h2>When</h2>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h1>January-February 2020</h1>        
+    </div>
+
+    <div class="step" data-x="10" data-y="4300" data-z="0" data-rotate-y="90" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-7 step-5 overview">
+        <h2>When</h2>
+        <p><i>2 months for MVP planing</i></p>
+        <p><i>4-5 months for MVP implementation</i></p>
+        <blockquote>Reverse engineering to fit</blockquote>
+        <blockquote>Agile methodology</blockquote>
+        <blockquote><b>Demos:</b> Monthly (Board), 15 days to CTO</blockquote>
+    </div>
+
+    <div class="step" data-x="0" data-y="4300" data-z="-10"  data-rotate-y="180" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-8 step-6 overview">
+        <h2>How Much</h2>
+        <h2>&nbsp;</h2>
+        <p><i><b>Estimated Monthly Costs</b></i></p>
+        <blockquote>People: R$ 50.000</blockquote>
+        <blockquote>Equipments R$ 20.000 (only first month)</blockquote>
+        <blockquote>Infrastructure R$ 3.000</blockquote>
+    </div>
+
+    <div class="step" data-x="-10" data-y="4300" data-z="0"  data-rotate-y="270" data-scale="5"
+         data-goto-key-list="ArrowRight ArrowLeft o" data-goto-next-list="step-9 step-7 overview">
+        <h2>&nbsp;</h2>
+        <p>&nbsp;</p>
+        <h1>Total Budget</h1></p>
+        <h2>R$ 350.000 - 380.000</h2>
+    </div>  
+
+    <div id="overview" class="step" data-x="0" data-y="-800" data-z="1000" data-scale="10" style="pointer-events: none;"><h1>MarketPlace</h1>
+    </div>
+</div>
+
+<div id="impress-toolbar"></div>
+<div id="impress-help"></div>
+
+<script type="text/javascript" src="./impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
